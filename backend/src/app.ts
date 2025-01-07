@@ -4,7 +4,7 @@ import cookieParser from 'cookie-parser';
 import authRoutes from './routes/authRoutes';
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 4000;
 
 // Middleware
 app.use(bodyParser.json());
